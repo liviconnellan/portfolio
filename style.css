@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+}
+
+nav h2 {
+  margin-right: auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+}
+
+.contact {
+  text-align: center;
+  padding: 100px 25px;
+}
+
+.contact h1 {
+  font-size: 45px;
+}
+
+.contact p {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 12px 25px;
+  background: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.links a {
+  margin: 10px;
+  color: #222;
+}
